@@ -8,12 +8,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Processing extends CI_Controller {
 
 	/** random clients count*/
-	const clientCount = 100;
+	const clientCount = 10;
 
 	/** random min count of client accounts */
 	const accountMinCount = 0;
 	/** random max count of client accounts */
-	const accountMaxCount = 2;
+	const accountMaxCount = 3;
 
 	/** random min initial charging sum*/
 	const operationMinInputSum = 100;
